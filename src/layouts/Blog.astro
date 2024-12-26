@@ -1,0 +1,34 @@
+
+---
+import Layout from './Layout.astro'
+
+const {title, author, pubDate} = Astro.props.frontmatter
+
+---
+
+
+<Layout>
+  <article class="prose
+  prose-stone
+  light:prose-invert
+  prose-h2:text-3xl
+  prose-h1:font-bold  
+  prose-h1:text-5xl
+  prose-a:text-blue-200 
+  prose-p:text-lg
+  prose-img:rounded-xl
+  "
+  >
+       <h2>{pubDate}</h2>
+       <h2>{title}</h2>
+       <slot/>
+</article>
+</Layout>
+
+
+<style>
+
+
+
+</style>
+
