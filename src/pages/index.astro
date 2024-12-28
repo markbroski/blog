@@ -1,27 +1,46 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import {getCollection} from 'astro:content'
-const posts = await getCollection('blogs')
-
-console.log(posts)
+import Layout from "../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+const posts = await getCollection("blogs");
 ---
 
 <Layout>
-	<h1> Recent Blogs </h1>
-
-	<ul>
-		{posts.map(post => (
-			<li><a href={`/blogs/${post.id}`}>{post.data.title}</a></li>
-		))}
-	</ul>
-	<h1>Projects</h1>
-	<h1>Books</h1>
+  <header class="text-7xl italic text-gray-800">Not Yet Falsified</header>
+  <div
+    class="max-w-prose inline-block border-b-8 border-blue-500 text-3xl text-gray-900 m-11 italic"
+  >
+    A website hosted by Mark Broski and dedicated to exploring ideas in tech,
+    culture, and life that I haven't been able to refute yet.
+  </div>
+  <h1>Recent Blogs</h1>
+  <ul>
+    {
+      posts.map((post) => (
+        <div class=" max-w-prose border-b-4 border-blue-800">
+          <h3 class="max-w-prose mx-auto text-gray-800 text-lg leading-relaxed tracking-normal">
+            <a
+              class="font-bold text-blue-800 hover:text-blue-600"
+              href={`/blogs/${post.id}`}
+            >
+              {post.data.title}
+            </a>
+          </h3>
+          <p class="max-w-prose mx-auto text-gray-800 text-lg leading-relaxed tracking-normal">
+            {post.data.description}
+          </p>
+          <div class="max-w-prose mx-auto text-blue-800 text-lg leading-relaxed tracking-normal">
+            {post.data.pubDate}
+          </div>
+        </div>
+      ))
+    }
+  </ul>
+  <h1>Projects</h1>
+  <h1>Books</h1>
 </Layout>
 
 <style>
-h1 {
-  font-size: 24pt;
-}
-
-
+  h1 {
+    font-size: 24pt;
+  }
 </style>

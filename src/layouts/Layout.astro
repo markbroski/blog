@@ -1,21 +1,21 @@
 ---
-import Sidebar from './Sidebar.astro'
-import Header from './Header.astro'
+import Sidebar from "./Sidebar.astro";
+import Header from "./Header.astro";
+import logo from '../assets/logo_trial_2.png'
 ---
 
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<Header/>
-<body class="bg-gray-100 text-gray-900">
-  <div class="flex flex-col md:flex-row min-h-screen">
-    <!-- Sidebar -->
-    <Sidebar/>
+  <Header />
+  <body class="bg-gray-200 text-gray-900">
+    <div class="flex flex-col md:flex-row min-h-screen">
+      <!-- Sidebar -->
+      <Sidebar />
 
-    <!-- Main Content -->
-    <main class="flex-1 p-4 pl-8 pr-8 ml-8 mr-8 mt-8">
-      <slot/>
-    </main>
-  </div>
-</body>
+      <!-- Main Content -->
+      <main class="flex-1 p-4 pl-8 pr-8 ml-8 mr-8 mt-8">
+        <slot />
+      </main>
+    </div>
+  </body>
 </html>

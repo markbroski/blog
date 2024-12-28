@@ -1,24 +1,39 @@
 ---
-import Layout from '../../layouts/Layout.astro';
-import {getCollection} from 'astro:content'
-const posts = await getCollection('blogs')
-
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+const posts = await getCollection("blogs");
+console.log(posts);
 ---
 
 <Layout>
-	<h1> All blogs</h1>
+  <h1>All blogs</h1>
 
-	<ul>
-		{posts.map(post => (
-			<li><a href={`/blogs/${post.id}`}>{post.data.title}</a></li>
-		))}
-	</ul>
+  <ul>
+    {
+      posts.map((post) => (
+        <div class="max-w-prose border-b-4 border-blue-800">
+          <h3 class="max-w-prose text-gray-800 text-lg leading-relaxed tracking-normal">
+            <a
+              class="font-bold text-blue-800 hover:text-blue-600"
+              href={`/blogs/${post.id}`}
+            >
+              {post.data.title}
+            </a>
+          </h3>
+          <p class="max-w-prose text-gray-800 text-lg leading-relaxed tracking-normal">
+            {post.data.description}
+          </p>
+          <div class="max-w-prose text-blue-800 text-lg leading-relaxed tracking-normal">
+            {post.data.pubDate}
+          </div>
+        </div>
+      ))
+    }
+  </ul>
 </Layout>
 
 <style>
-h1 {
-  font-size: 24pt;
-}
-
-
+  h1 {
+    font-size: 24pt;
+  }
 </style>
