@@ -1,12 +1,12 @@
 ---
 import Sidebar from "./Sidebar.astro";
 import Header from "./Header.astro";
-import logo from '../assets/logo_trial_2.png'
+const {keywords = "", title = "title", description = "description"} = Astro.props
 ---
 
 <!doctype html>
 <html lang="en">
-  <Header />
+  <Header keywords={keywords} title={title} description={description}/>
   <body class="bg-gray-200 text-gray-900">
     <div class="flex flex-col md:flex-row min-h-screen">
       <!-- Sidebar -->

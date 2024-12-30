@@ -2,10 +2,9 @@
 import Layout from "../../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 const posts = await getCollection("blogs");
-console.log(posts);
 ---
 
-<Layout>
+<Layout title="Mark Broski Blogs" description="A list of Blogs" keywords="blog entries">
   <h1>All blogs</h1>
 
   <ul>
@@ -32,8 +31,3 @@ console.log(posts);
   </ul>
 </Layout>
 
-<style>
-  h1 {
-    font-size: 24pt;
-  }
-</style>

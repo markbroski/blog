@@ -1,11 +1,12 @@
 ---
-layout: ../../layouts/Blog.astro
+layout: ../../../../layouts/Blog.astro
 title: "Bill Simmons is Right: We need a Sports Czar"
+keywords: "Bill Simmons, Sports Czar"
 pubDate: "2024-12-27"
-description: "Bill Simmons proposed an American sports czar to prioritize player safety, fan experience, and community benefit. This czar would regulate leagues to reduce games, prevent public stadium funding, and improve scheduling. By emphasizing quality over profits, the czar would ensure sports maintain their societal value while addressing issues caused by antitrust exemptions."
+description: "Bill Simmons wants a Sports Czar, but he never explains what such a czar would do.  So here are some suggestions."
 ---
 
-Noted sports columnist Bill Simmons, formerly of ESPN and now the Ringer, has advocated for the creation of an American Sports Czar. He's never given much detail about the idea, so I'm going to do that for him.
+Noted sports columnist [Bill Simmons](https://www.theringer.com/creator/bill-simmons), formerly of ESPN and now the [Ringer](https://www.theringer.com), has advocated for the creation of an American Sports Czar. He's never given much detail about the idea, so I'm going to do that for him.
 
 Sports, much like other forms of entertainment, has characteristics of a public good. A public good, in economic terms, is something that one person can consume without reducing its availability to others. In fact, in the case of sports, the opposite is often true: the enjoyment of one fan can amplify the enjoyment of others. Economists such as Paul Samuelson first described public goods as goods that are **non-excludable** (available to everyone) and **non-rivalrous** (one person’s consumption doesn’t reduce another’s). The communal experience of sports exemplifies this. A packed stadium, roaring with excitement, doesn’t diminish my fan experience—it enhances it.
 
@@ -19,7 +20,7 @@ The consequences of these decisions are evident: tired players, watered-down qua
 
 ### The Role of a Sports Czar
 
-Because professional sports leagues depend on congressional exemptions from antitrust laws, we have leverage to demand reform. This is where a **sports czar** could step in. The czar’s primary responsibility would be to maximize the quality of the games, with three key priorities:
+Because professional sports leagues depend on congressional exemptions from antitrust laws (a good analysis is [here](https://www.antitrustinstitute.org/wp-content/uploads/2018/08/USandEuropeExemption.pdf)), we have leverage to demand reform. This is where a **sports czar** could step in. The czar’s primary responsibility would be to maximize the quality of the games, with three key priorities:
 
 1. **Player Safety:** Ensuring athletes are protected from undue physical harm.
 2. **Fan Convenience:** Prioritizing in-stadium fan experiences and accessibility.

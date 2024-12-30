@@ -1,18 +1,19 @@
 ---
 import Layout from "./Layout.astro";
 
-const { title, author, pubDate } = Astro.props.frontmatter;
+const { description, title, author, pubDate, keywords } = Astro.props.frontmatter;
 ---
 
-<Layout>
+<Layout title={title} keywords={keywords} description={description}>
   <article
     class="prose
   prose-stone
   light:prose-invert
   prose-h2:text-3xl
+  prose-a:font-bold
+  prose-a:text-blue-800
   prose-h1:font-bold
   prose-h1:text-5xl
-  prose-a:text-blue-200
   prose-p:text-lg
   prose-img:rounded-xl"
   >

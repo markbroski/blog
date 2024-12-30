@@ -1,8 +1,10 @@
 ---
 import Layout from "./Layout.astro";
+const {title, description} = Astro.props.frontmatter
+console.log(`From the general ${title}`)
 ---
 
-<Layout>
+<Layout title={title} description={description}>
   <article
     class="prose
   light:prose-invert
