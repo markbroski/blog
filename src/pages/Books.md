@@ -6,4 +6,3 @@ description: "A list of books that have had a big impact"
 ---
 
 ## Books I love
-

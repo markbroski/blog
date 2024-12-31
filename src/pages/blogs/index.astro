@@ -4,14 +4,18 @@ import { getCollection } from "astro:content";
 const posts = await getCollection("blogs");
 ---
 
-<Layout title="Mark Broski Blogs" description="A list of Blogs" keywords="blog entries">
+<Layout
+  title="Mark Broski Blogs"
+  description="A list of Blogs"
+  keywords="blog entries"
+>
   <h1>All blogs</h1>
 
   <ul>
     {
       posts.map((post) => (
         <div class="max-w-prose border-b-4 border-blue-800">
-          <h3 class="max-w-prose text-gray-800 text-lg leading-relaxed tracking-normal">
+          <h3 class="max-w-prose text-lg leading-relaxed tracking-normal text-gray-800">
             <a
               class="font-bold text-blue-800 hover:text-blue-600"
               href={`/blogs/${post.id}`}
@@ -19,10 +23,10 @@ const posts = await getCollection("blogs");
               {post.data.title}
             </a>
           </h3>
-          <p class="max-w-prose text-gray-800 text-lg leading-relaxed tracking-normal">
+          <p class="max-w-prose text-lg leading-relaxed tracking-normal text-gray-800">
             {post.data.description}
           </p>
-          <div class="max-w-prose text-blue-800 text-lg leading-relaxed tracking-normal">
+          <div class="max-w-prose text-lg leading-relaxed tracking-normal text-blue-800">
             {post.data.pubDate}
           </div>
         </div>
@@ -30,4 +34,3 @@ const posts = await getCollection("blogs");
     }
   </ul>
 </Layout>
-

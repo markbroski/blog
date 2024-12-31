@@ -6,4 +6,3 @@ description: "A description of recent projects I've been working on"
 ---
 
 # Recent Projects
-

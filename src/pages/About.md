@@ -1,4 +1,4 @@
 ---
-title:   'About me'
-description : 'here is a description'
+title: "About me"
+description: "here is a description"
 ---

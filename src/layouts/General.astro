@@ -1,25 +1,12 @@
 ---
 import Layout from "./Layout.astro";
-const {title, description} = Astro.props.frontmatter
-console.log(`From the general ${title}`)
+const { title, description } = Astro.props.frontmatter;
+console.log(`From the general ${title}`);
 ---
 
 <Layout title={title} description={description}>
   <article
-    class="prose
-  light:prose-invert
-  prose-a:text-blue-200
-  prose-h1:font-bold
-  prose-h1:text-5xl
-  prose-h2:text-3xl
-  prose-img:rounded-xl
-  prose-li:font-semibold
-  prose-li:marker:text-blue-800
-  prose-li:text-blue-800
-  prose-li:leading-snug
-  prose-p:text-lg
-  prose-stone
-  prose-ul:list-disc"
+    class="light:prose-invert prose prose-stone prose-h1:text-5xl prose-h1:font-bold prose-h2:text-3xl prose-p:text-lg prose-a:text-blue-200 prose-ul:list-disc prose-li:font-semibold prose-li:leading-snug prose-li:text-blue-800 prose-li:marker:text-blue-800 prose-img:rounded-xl"
   >
     <slot />
   </article>

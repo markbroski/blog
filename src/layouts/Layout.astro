@@ -1,19 +1,23 @@
 ---
 import Sidebar from "./Sidebar.astro";
 import Header from "./Header.astro";
-const {keywords = "", title = "title", description = "description"} = Astro.props
+const {
+  keywords = "",
+  title = "title",
+  description = "description",
+} = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
-  <Header keywords={keywords} title={title} description={description}/>
+  <Header keywords={keywords} title={title} description={description} />
   <body class="bg-gray-200 text-gray-900">
-    <div class="flex flex-col md:flex-row min-h-screen">
+    <div class="flex min-h-screen flex-col md:flex-row">
       <!-- Sidebar -->
       <Sidebar />
 
       <!-- Main Content -->
-      <main class="flex-1 p-4 pl-8 pr-8 ml-8 mr-8 mt-8">
+      <main class="ml-8 mr-8 mt-8 flex-1 p-4 pl-8 pr-8">
         <slot />
       </main>
     </div>
