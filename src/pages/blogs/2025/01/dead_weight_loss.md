@@ -6,11 +6,9 @@ pubDate: "2025-01-01"
 description: "Whenever Donald Trump brings up protectionist ideas, the first thought to cross your mind should be, 'Hmmm, I wonder how much the deadweight losss will be with that policy.'"
 ---
 
-# The Hidden Costs of Protectionism: Why Deadweight Loss Should Be Top of Mind
-
 When discussing tariffs or any form of protectionism, the conversation often revolves around the jobs "saved" or industries "protected." However, the true cost of these policies is frequently hidden: the **deadweight loss** imposed on the economy. This inefficiency should be the first thing that comes to mind when tariffs are proposed. Here’s why.
 
----
+
 
 ### What Is Deadweight Loss?
 
@@ -18,7 +16,7 @@ Deadweight loss is the economic inefficiency caused when market transactions are
 
 This concept was first recognized by French economist **Jules Dupuit** in 1844, who studied the social costs of taxes and tolls on utility. Later, English economist **Alfred Marshall** popularized and formalized the idea in his foundational work on supply and demand ([History of Economic Thought](https://www.econlib.org/library/Enc/DeadweightLoss.html)).
 
----
+
 
 ### The True Costs of Protectionism: A Closer Look
 
@@ -41,7 +39,7 @@ This concept was first recognized by French economist **Jules Dupuit** in 1844, 
    - By reducing competition, tariffs stifle innovation and productivity, slowing long-term economic growth.
    - **Deadweight Loss Estimate**: Reduced competition from tariffs can lower U.S. GDP growth by **0.3% annually**, equating to **$60 billion in lost output** ([OECD](https://www.oecd.org/)).
 
----
+
 
 ### Why Deadweight Loss Matters
 
@@ -50,13 +48,13 @@ Every time a tariff is proposed, ask: **"How big will the deadweight loss be?"**
 - **Damages businesses** by distorting resource allocation.
 - **Slows growth** by reducing efficiency and innovation.
 
----
+
 
 ### A Case for Free Trade
 
 The economic evidence is clear: tariffs are costly, inefficient, and regressive. They may serve short-term political goals but come at a high price for society as a whole. By centering the discussion on deadweight loss, we can reframe the debate around tariffs and protectionism, ensuring that the hidden costs are brought into the light.
 
----
+
 
 ### Conclusion
 
