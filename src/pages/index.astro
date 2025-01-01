@@ -15,8 +15,6 @@ const posts = await getCollection("blogs");
   <h1>Recent Blogs</h1>
   <ul>
     {
-      posts.map((post) => (
-        <div class="max-w-prose border-b-4 border-blue-800">
       posts.map((posts) => (
         <div class="mt-6 max-w-prose border-b-4 border-blue-800">
           <h3 class="mx-auto max-w-prose text-lg leading-relaxed tracking-normal text-gray-800">
